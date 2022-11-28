@@ -1,9 +1,9 @@
-package th.ac.ku.cakeAPI.controller;
+package th.ac.ku.KuPremiumAPI.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import th.ac.ku.cakeAPI.model.CakesOrder;
-import th.ac.ku.cakeAPI.service.OrderService;
+import th.ac.ku.KuPremiumAPI.model.CakesOrder;
+import th.ac.ku.KuPremiumAPI.service.OrderService;
 
 import java.util.List;
 import java.util.UUID;

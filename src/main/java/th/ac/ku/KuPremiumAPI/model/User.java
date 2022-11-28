@@ -1,4 +1,4 @@
-package th.ac.ku.cakeAPI.model;
+package th.ac.ku.KuPremiumAPI.model;
 
 
 import org.hibernate.annotations.Type;

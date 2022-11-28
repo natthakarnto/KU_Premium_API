@@ -1,9 +1,9 @@
-package th.ac.ku.cakeAPI.controller;
+package th.ac.ku.KuPremiumAPI.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import th.ac.ku.cakeAPI.model.Certificate;
-import th.ac.ku.cakeAPI.service.CertificateService;
+import th.ac.ku.KuPremiumAPI.model.Certificate;
+import th.ac.ku.KuPremiumAPI.service.CertificateService;
 
 import java.util.List;
 import java.util.UUID;

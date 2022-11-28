@@ -1,13 +1,13 @@
-package th.ac.ku.cakeAPI;
+package th.ac.ku.KuPremiumAPI;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CakeApiApplication {
+public class KuPremiumApiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CakeApiApplication.class, args);
+		SpringApplication.run(KuPremiumApiApplication.class, args);
 	}
 
 }

@@ -1,10 +1,10 @@
-package th.ac.ku.cakeAPI.service;
+package th.ac.ku.KuPremiumAPI.service;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import th.ac.ku.cakeAPI.model.Cakes;
-import th.ac.ku.cakeAPI.repository.CakesRepository;
+import th.ac.ku.KuPremiumAPI.model.Cakes;
+import th.ac.ku.KuPremiumAPI.repository.CakesRepository;
 
 import java.util.List;
 import java.util.UUID;

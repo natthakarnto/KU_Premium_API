@@ -1,12 +1,12 @@
-package th.ac.ku.cakeAPI.service;
+package th.ac.ku.KuPremiumAPI.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
-import th.ac.ku.cakeAPI.model.User;
-import th.ac.ku.cakeAPI.repository.UserRepository;
+import th.ac.ku.KuPremiumAPI.model.User;
+import th.ac.ku.KuPremiumAPI.repository.UserRepository;
 
 import java.util.List;
 import java.util.UUID;
