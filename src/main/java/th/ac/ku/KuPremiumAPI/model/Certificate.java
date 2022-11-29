@@ -16,16 +16,8 @@ public class Certificate {
     @Column(columnDefinition = "CHAR(36)")
 
     private UUID prodCertificateID;
-    private String pID;
+    private String productName;
     private String prodCertificateName;
-
-    public String getpID() {
-        return pID;
-    }
-
-    public void setpID(String pID) {
-        this.pID = pID;
-    }
 
     public UUID getProdCertificateID() {
         return prodCertificateID;
@@ -33,6 +25,14 @@ public class Certificate {
 
     public void setProdCertificateID(UUID prodCertificateID) {
         this.prodCertificateID = prodCertificateID;
+    }
+
+    public String getProductName() {
+        return productName;
+    }
+
+    public void setProductName(String productName) {
+        this.productName = productName;
     }
 
     public String getProdCertificateName() {

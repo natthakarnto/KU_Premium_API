@@ -28,7 +28,7 @@ public class CertificateService {
 
     public Certificate update(UUID id, Certificate requestBody){
         Certificate record = repository.findById(id).get();
-//        record.setpID(requestBody.getpID());
+        record.setProductName(requestBody.getProductName());
         record.setProdCertificateName(requestBody.getProdCertificateName());
 
         repository.save(record);

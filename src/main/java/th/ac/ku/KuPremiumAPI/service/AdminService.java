@@ -1,4 +1,4 @@
-//package th.ac.ku.cakeAPI.service;
+package th.ac.ku.KuPremiumAPI.service;//package th.ac.ku.cakeAPI.service;
 //
 //import org.springframework.beans.factory.annotation.Autowired;
 //import org.springframework.context.annotation.Bean;

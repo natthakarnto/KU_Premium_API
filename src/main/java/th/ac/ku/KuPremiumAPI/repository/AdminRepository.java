@@ -1,4 +1,4 @@
-//package th.ac.ku.cakeAPI.repository;
+package th.ac.ku.KuPremiumAPI.repository;//package th.ac.ku.cakeAPI.repository;
 //
 //import org.springframework.data.jpa.repository.JpaRepository;
 //import org.springframework.stereotype.Repository;
