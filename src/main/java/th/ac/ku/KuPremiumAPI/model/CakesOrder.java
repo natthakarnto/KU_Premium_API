@@ -7,7 +7,6 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
-import java.util.Date;
 import java.util.UUID;
 
 @Entity
@@ -19,7 +18,7 @@ public class CakesOrder {
     @Column(columnDefinition = "CHAR(36)")
 
     private UUID orderId;
-    private Date date;
+    private String date;
     private String name;
     private String surname;
     private String mobile;
@@ -27,7 +26,7 @@ public class CakesOrder {
     private String cakes;
     private String username;
     private String status;
-    private Date approvedDate;
+    private String approvedDate;
 
     public UUID getOrderId() {
         return orderId;
@@ -37,11 +36,11 @@ public class CakesOrder {
         this.orderId = orderId;
     }
 
-    public Date getDate() {
+    public String getDate() {
         return date;
     }
 
-    public void setDate(Date date) {
+    public void setDate(String date) {
         this.date = date;
     }
 
@@ -101,11 +100,11 @@ public class CakesOrder {
         this.status = status;
     }
 
-    public Date getApprovedDate() {
+    public String getApprovedDate() {
         return approvedDate;
     }
 
-    public void setApprovedDate(Date approvedDate) {
+    public void setApprovedDate(String approvedDate) {
         this.approvedDate = approvedDate;
     }
 }
