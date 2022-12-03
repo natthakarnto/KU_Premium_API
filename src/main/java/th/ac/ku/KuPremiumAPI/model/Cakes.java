@@ -54,8 +54,8 @@ public class Cakes {
 
     private String rreID;
 
-    @Column(nullable = true, length = 128)
-    private String photos;
+//    @Column(nullable = true, length = 128)
+//    private String photos;
 
     public UUID getpID() {
         return pID;
@@ -257,18 +257,18 @@ public class Cakes {
         this.rreID = rreID;
     }
 
+//    public String getPhotos() {
+//        return photos;
+//    }
+//
+//    public void setPhotos(String photos) {
+//        this.photos = photos;
+//    }
 
-    public String getPhotos() {
-        return photos;
-    }
-
-    public void setPhotos(String photos) {
-        this.photos = photos;
-    }
-    @Transient
-    public String getPhotosImagePath() {
-        if (photos == null || pID == null) return null;
-
-        return "./KU_Premium_Webrunner/src/main/resources/static/images/" + pID + "/" + photos;
-    }
+//    @Transient
+//    public String getPhotosImagePath() {
+//        if (photos == null || pID == null) return null;
+//
+//        return "./KU_Premium_Webrunner/src/main/resources/static/images/" + pID + "/" + photos;
+//    }
 }

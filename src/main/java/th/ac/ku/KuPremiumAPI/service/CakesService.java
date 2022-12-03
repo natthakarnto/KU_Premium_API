@@ -54,6 +54,7 @@ public class CakesService {
         record.setFtvID(record.getFtvID());
         record.setaID(record.getaID());
         record.setRreID(record.getRreID());
+//        record.setPhotos(record.getPhotos());
 
         repository.save(record);
         return record;
