@@ -6,6 +6,7 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import java.beans.Transient;
 import java.util.UUID;
 
 @Entity
@@ -52,6 +53,9 @@ public class Cakes {
     private String aID;
 
     private String rreID;
+
+    @Column(nullable = true, length = 128)
+    private String photos;
 
     public UUID getpID() {
         return pID;
@@ -251,5 +255,20 @@ public class Cakes {
 
     public void setRreID(String rreID) {
         this.rreID = rreID;
+    }
+
+
+    public String getPhotos() {
+        return photos;
+    }
+
+    public void setPhotos(String photos) {
+        this.photos = photos;
+    }
+    @Transient
+    public String getPhotosImagePath() {
+        if (photos == null || pID == null) return null;
+
+        return "./KU_Premium_Webrunner/src/main/resources/static/images/" + pID + "/" + photos;
     }
 }
