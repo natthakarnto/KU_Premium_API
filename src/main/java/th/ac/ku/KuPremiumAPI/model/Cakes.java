@@ -18,6 +18,7 @@ public class Cakes {
 
     private UUID pID;
     private String productName;
+    private String username;
     private String productCategory;
     private double price;
     private String poID;
@@ -71,6 +72,14 @@ public class Cakes {
 
     public void setProductName(String productName) {
         this.productName = productName;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     public String getProductCategory() {
@@ -257,18 +266,4 @@ public class Cakes {
         this.rreID = rreID;
     }
 
-//    public String getPhotos() {
-//        return photos;
-//    }
-//
-//    public void setPhotos(String photos) {
-//        this.photos = photos;
-//    }
-
-//    @Transient
-//    public String getPhotosImagePath() {
-//        if (photos == null || pID == null) return null;
-//
-//        return "./KU_Premium_Webrunner/src/main/resources/static/images/" + pID + "/" + photos;
-//    }
 }

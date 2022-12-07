@@ -31,6 +31,7 @@ public class CakesService {
     public Cakes update(UUID id, Cakes requestBody){
         Cakes record = repository.findById(id).get();
         record.setProductName(requestBody.getProductName());
+        record.setUsername(requestBody.getUsername());
         record.setProductCategory(requestBody.getProductCategory());
         record.setPrice(requestBody.getPrice());
         record.setPoID(requestBody.getPoID());
@@ -54,7 +55,6 @@ public class CakesService {
         record.setFtvID(record.getFtvID());
         record.setaID(record.getaID());
         record.setRreID(record.getRreID());
-//        record.setPhotos(record.getPhotos());
 
         repository.save(record);
         return record;
