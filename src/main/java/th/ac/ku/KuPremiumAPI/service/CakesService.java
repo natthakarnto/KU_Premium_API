@@ -49,12 +49,12 @@ public class CakesService {
         record.setProductDiscountPercent(requestBody.getProductDiscountPercent());
         record.setPriceExcludingVat(requestBody.getPriceExcludingVat());
         record.setPricePromotion(requestBody.getPricePromotion());
-        record.setPcID(record.getPcID());
-        record.setPrr_ID(record.getPrr_ID());
-        record.setPsvID(record.getPsvID());
-        record.setFtvID(record.getFtvID());
-        record.setaID(record.getaID());
-        record.setRreID(record.getRreID());
+//        record.setPcID(record.getPcID());
+//        record.setPrr_ID(record.getPrr_ID());
+//        record.setPsvID(record.getPsvID());
+//        record.setFtvID(record.getFtvID());
+//        record.setaID(record.getaID());
+//        record.setRreID(record.getRreID());
 
         repository.save(record);
         return record;

@@ -43,17 +43,17 @@ public class Cakes {
 
     private double pricePromotion;
 
-    private String pcID;
-
-    private String prr_ID;
-
-    private String psvID;
-
-    private String ftvID;
-
-    private String aID;
-
-    private String rreID;
+//    private String pcID;
+//
+//    private String prr_ID;
+//
+//    private String psvID;
+//
+//    private String ftvID;
+//
+//    private String aID;
+//
+//    private String rreID;
 
 //    @Column(nullable = true, length = 128)
 //    private String photos;
@@ -218,52 +218,52 @@ public class Cakes {
         this.pricePromotion = pricePromotion;
     }
 
-    public String getPcID() {
-        return pcID;
-    }
-
-    public void setPcID(String pcID) {
-        this.pcID = pcID;
-    }
-
-    public String getPrr_ID() {
-        return prr_ID;
-    }
-
-    public void setPrr_ID(String prr_ID) {
-        this.prr_ID = prr_ID;
-    }
-
-    public String getPsvID() {
-        return psvID;
-    }
-
-    public void setPsvID(String psvID) {
-        this.psvID = psvID;
-    }
-
-    public String getFtvID() {
-        return ftvID;
-    }
-
-    public void setFtvID(String ftvID) {
-        this.ftvID = ftvID;
-    }
-
-    public String getaID() {
-        return aID;
-    }
-
-    public void setaID(String aID) {
-        this.aID = aID;
-    }
-
-    public String getRreID() {
-        return rreID;
-    }
-
-    public void setRreID(String rreID) {
-        this.rreID = rreID;
-    }
+//    public String getPcID() {
+//        return pcID;
+//    }
+//
+//    public void setPcID(String pcID) {
+//        this.pcID = pcID;
+//    }
+//
+//    public String getPrr_ID() {
+//        return prr_ID;
+//    }
+//
+//    public void setPrr_ID(String prr_ID) {
+//        this.prr_ID = prr_ID;
+//    }
+//
+//    public String getPsvID() {
+//        return psvID;
+//    }
+//
+//    public void setPsvID(String psvID) {
+//        this.psvID = psvID;
+//    }
+//
+//    public String getFtvID() {
+//        return ftvID;
+//    }
+//
+//    public void setFtvID(String ftvID) {
+//        this.ftvID = ftvID;
+//    }
+//
+//    public String getaID() {
+//        return aID;
+//    }
+//
+//    public void setaID(String aID) {
+//        this.aID = aID;
+//    }
+//
+//    public String getRreID() {
+//        return rreID;
+//    }
+//
+//    public void setRreID(String rreID) {
+//        this.rreID = rreID;
+//    }
 
 }
